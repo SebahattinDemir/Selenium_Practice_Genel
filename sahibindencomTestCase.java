@@ -38,7 +38,7 @@ public class sahibindencomTestCase extends TestBase {
         //filtreler için sağıdakilere benzer methodlar oluşturun
         //detayli_Arama_Adres("izmir", "bayrakli", "adalet mah.");
 
-        detayli_Arama_Adres("Sivas", "", "");
+     //   detayli_Arama_Adres("Sivas", "", "");
 
 
 
@@ -48,12 +48,12 @@ public class sahibindencomTestCase extends TestBase {
         // cikan sonuc sayisini veya sonuc yoksa bunu bildiren yaziyi konsolda yazdirin
     }
 
-    public void detayli_Arama_Adres(String il, String ilce, String Mah) {
-
-        driver.findElement(By.xpath("//*[@class='faceted-select']")).click();
-        driver.findElement(By.xpath("//input[@placeholder='İl']")).sendKeys(il);
-        //driver.findElement(By.xpath("//a[text()='" + il + "']")).click();
-
-    }
+//    public void detayli_Arama_Adres(String il, String ilce, String Mah) {
+//
+//        driver.findElement(By.xpath("//*[@class='faceted-select']")).click();
+//        driver.findElement(By.xpath("//input[@placeholder='İl']")).sendKeys(il);
+//        //driver.findElement(By.xpath("//a[text()='" + il + "']")).click();
+//
+//    }
 
 }
